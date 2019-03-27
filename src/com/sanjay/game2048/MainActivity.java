@@ -72,6 +72,8 @@ public class MainActivity extends Activity {
       DialogChangeLog changeLog = DialogChangeLog.newInstance(this);
       if (changeLog.isFirstRun()) {
             //changeLog.getLogDialog().show();
+
+          //vdsfkjsfkjslvjkl
         }
 
         // Load webview with game
