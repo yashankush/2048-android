@@ -1,4 +1,4 @@
-package com.uberspot.a2048;
+package com.sanjay.game2048;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -69,9 +69,9 @@ public class MainActivity extends Activity {
 
         setContentView(R.layout.activity_main);
 
-        DialogChangeLog changeLog = DialogChangeLog.newInstance(this);
-        if (changeLog.isFirstRun()) {
-            changeLog.getLogDialog().show();
+      DialogChangeLog changeLog = DialogChangeLog.newInstance(this);
+      if (changeLog.isFirstRun()) {
+            //changeLog.getLogDialog().show();
         }
 
         // Load webview with game

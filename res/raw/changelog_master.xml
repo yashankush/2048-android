@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingDefaultResource">
+
     <release
-        version="2.2"
-        versioncode="25">
+        version="1"
+        versioncode="1">
         <change>(2.2) Bumped minSdkVersion from 8 (Froyo) to 14 (ICS)</change>
         <change>(2.2) Update changelog library that had breaking changes</change>
         <change>(2.1) Detect and utilise the phone's system language (thank you BValeo)</change>
